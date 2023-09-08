@@ -1,0 +1,191 @@
+@import "bootstrap";
+@import "bootstrap-icons";
+@import "/node_modules/flag-icons/css/flag-icons.min.css";
+body {
+    background-color: #f4f2de;
+}
+.logo-navbar > img {
+    width: 40px;
+}
+
+header {
+    padding: 30px;
+    width: auto;
+    height: 20vw;
+    text-align: center;
+    border-bottom: solid grey 1px;
+}
+
+.newAddBtn,
+.loginLinkBtn,
+.registerLinkBtn {
+    padding: 5px;
+    margin: 5px;
+    border: solid black 1px;
+    background-color: azure;
+    text-decoration: none;
+    color: black;
+}
+
+.background-green {
+    background-color: #7c9d96;
+}
+
+.colorNavbarButton {
+    background-color: #7c9d96;
+    &:hover {
+        background-color: #6c8882;
+        transition: 0.5s;
+    }
+}
+
+.BackGroundcolor {
+    color: #a1ccd1;
+}
+
+.categoryBadge {
+    background-color: #e9b384;
+}
+
+.buttonColor {
+    background-color: #e9b384;
+    color: white;
+
+    &:hover {
+        background-color: #c29772;
+        color: white;
+    }
+}
+.background-lite-blue {
+    background-color: #a1ccd1;
+}
+
+.BackGroundIllustration {
+    box-shadow: rgba(233, 179, 132, 0.4) 5px 5px,
+        rgba(233, 179, 132, 0.3) 10px 10px, rgba(233, 179, 132, 0.2) 15px 15px,
+        rgba(233, 179, 132, 0.1) 20px 20px, rgba(233, 179, 132, 0.05) 25px 25px;
+}
+
+.BackGroundIllustrationReverse {
+    box-shadow: rgba(233, 179, 132, 0.4) -5px 5px,
+        rgba(233, 179, 132, 0.3) -10px 10px, rgba(233, 179, 132, 0.2) -15px 15px,
+        rgba(233, 179, 132, 0.1) -20px 20px,
+        rgba(233, 179, 132, 0.05) -25px 25px;
+}
+.icon {
+    font-size: 90px;
+    color: #f4f2de;
+    background-color: #7c9d96;
+    box-shadow: rgba(233, 179, 132, 0.4) 0px 3px,
+        rgba(233, 179, 132, 0.3) 0px 10px, rgba(233, 179, 132, 0.2) 0px 15px,
+        rgba(233, 179, 132, 0.1) 0px 20px, rgba(233, 179, 132, 0.05) 0px 25px;
+    transition: transform 1s ease;
+    transition: color 0.5s ease;
+    &:hover {
+        color: #e9b384;
+        transform: scale(1.05);
+    }
+}
+.icon-size-color > a {
+    color: #f4f2de;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    font-size: 90px;
+    background-color: #7c9d96;
+    border-radius: 5%;
+    margin: 3%;
+    box-shadow: rgba(233, 179, 132, 0.4) 0px 5px,
+        rgba(233, 179, 132, 0.3) 0px 10px, rgba(233, 179, 132, 0.2) 0px 15px,
+        rgba(233, 179, 132, 0.1) 0px 20px, rgba(233, 179, 132, 0.05) 0px 25px;
+    transition: transform 1s ease;
+    transition: color 0.5s ease;
+    &:hover {
+        color: #e9b384;
+        transform: scale(1.05);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .icon > a {
+        color: #f4f2de;
+        display: flex;
+        justify-content: center;
+        width: 15%;
+        font-size: 20px;
+        background-color: #7c9d96;
+        border-radius: 5%;
+        margin: 3%;
+        box-shadow: rgba(233, 179, 132, 0.4) 0px 5px,
+            rgba(233, 179, 132, 0.3) 0px 10px, rgba(233, 179, 132, 0.2) 0px 15px,
+            rgba(233, 179, 132, 0.1) 0px 20px,
+            rgba(233, 179, 132, 0.05) 0px 25px;
+        transition: transform 1s ease;
+        transition: color 0.5s ease;
+        &:hover {
+            color: #e9b384;
+            transform: scale(1.05);
+        }
+    }
+}
+.border-orange {
+    border: solid 1px #e9b384;
+    border-radius: 20%;
+}
+.review {
+    background-color: rgb(255, 225, 0, 0.8);
+    border-radius: 20%;
+}
+
+.rejected-color {
+    background-color: rgb(208, 84, 62, 0.8);
+    border-radius: 20%;
+}
+
+.img-preview {
+    height: 250px;
+    width: 250px;
+}
+
+.max-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Size {
+    height: 200px;
+    width: auto;
+}
+
+.error-message {
+    padding: 20px;
+    border-radius: 4px;
+    border: solid 1px red;
+    background-color: rgb(251, 242, 242);
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+.success-message {
+    padding: 20px;
+    border-radius: 4px;
+    border: solid 1px #7c9d96;
+    background-color: #edf7f5;
+    color: #6f8c86;
+    text-align: center;
+    font-size: 20px;
+}
+
+.img-size-card {
+    height: 300px;
+}
+
+.img-revisor-size {
+    width: 300px;
+}
+
+.carusel-img-size {
+    height: 350px;
+}
